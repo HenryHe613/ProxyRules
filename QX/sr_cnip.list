@@ -11,7 +11,8 @@
 # 不包含广告过滤
 #
 
-DOMAIN-SUFFIX,ampproject.org,PROXY # Google AMP issue#237
+DOMAIN-SUFFIX,ampproject.org,PROXY
+# Google AMP issue#237
 
 # 手工定义的 Proxy 列表
 #TED
