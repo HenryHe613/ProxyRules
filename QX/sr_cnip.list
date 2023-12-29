@@ -1,21 +1,4 @@
-# Best Shadowrocket Rules (https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever)
-# by Moshel and Johnshall
-# build time: UTC 2023-12-28 23:02:11
-
-
-# 默认关闭 ipv6 支持，如果需要请手动开启
-
-#
-# 国内外划分，对中国网站直连，外国网站代理。
-#
-# 不包含广告过滤
-#
-
 DOMAIN-SUFFIX,ampproject.org,PROXY
-# Google AMP issue#237
-
-# 手工定义的 Proxy 列表
-#TED
 DOMAIN-SUFFIX,tedcdn.com,Proxy
 #Telegram
 DOMAIN-SUFFIX,t.me,Proxy
@@ -33,11 +16,11 @@ IP-CIDR,149.154.160.0/20,Proxy
 IP-CIDR,91.105.192.0/23,Proxy
 IP-CIDR,91.108.20.0/22,Proxy
 IP-CIDR,185.76.151.0/24,Proxy
-IP-CIDR,2001:b28:f23d::/48,Proxy
-IP-CIDR,2001:b28:f23f::/48,Proxy
-IP-CIDR,2001:67c:4e8::/48,Proxy
-IP-CIDR,2001:b28:f23c::/48,Proxy
-IP-CIDR,2a0a:f280::/32,Proxy
+IP6-CIDR,2001:b28:f23d::/48,Proxy
+IP6-CIDR,2001:b28:f23f::/48,Proxy
+IP6-CIDR,2001:67c:4e8::/48,Proxy
+IP6-CIDR,2001:b28:f23c::/48,Proxy
+IP6-CIDR,2a0a:f280::/32,Proxy
 #disqus
 DOMAIN-SUFFIX,disquscdn.com,Proxy
 #50 whatsapp
@@ -440,5 +423,3 @@ FINAL,proxy
 
 [MITM]
 hostname = *.google.cn,*.googlevideo.com
-
-# Made with Love from https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever
