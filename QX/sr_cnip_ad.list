@@ -1,18 +1,5 @@
-# Best Shadowrocket Rules (https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever)
-# by Moshel and Johnshall
-# build time: UTC 2023-12-28 23:02:11
 
-
-#
-# 国内外划分，对中国网站直连，外国网站代理。
-#
-# 包含广告过滤
-#
-
-DOMAIN-SUFFIX,ampproject.org,PROXY # Google AMP issue#237
-
-# 手工定义的 Proxy 列表
-#TED
+DOMAIN-SUFFIX,ampproject.org,PROXY
 DOMAIN-SUFFIX,tedcdn.com,Proxy
 #Telegram
 DOMAIN-SUFFIX,t.me,Proxy
@@ -41897,11 +41884,6 @@ GEOIP,CN,DIRECT
 
 FINAL,proxy
 
-[URL Rewrite]
-^https?://(www.)?(g|google)\.cn https://www.google.com 302
 
-
-[MITM]
-hostname = *.google.cn,*.googlevideo.com
 
 # Made with Love from https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever
