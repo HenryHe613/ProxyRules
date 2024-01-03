@@ -1,5 +1,12 @@
 DOMAIN-SUFFIX,ampproject.org,PROXY
 DOMAIN-SUFFIX,tedcdn.com,Proxy
+
+
+# OpenAI
+
+
+
+
 #Telegram
 DOMAIN-SUFFIX,t.me,Proxy
 DOMAIN-SUFFIX,tdesktop.com,Proxy
@@ -21,15 +28,32 @@ IP6-CIDR,2001:b28:f23f::/48,Proxy
 IP6-CIDR,2001:67c:4e8::/48,Proxy
 IP6-CIDR,2001:b28:f23c::/48,Proxy
 IP6-CIDR,2a0a:f280::/32,Proxy
+
+
+
 #disqus
 DOMAIN-SUFFIX,disquscdn.com,Proxy
+
+
+
 #50 whatsapp
 IP-CIDR,18.194.0.0/15,Proxy
 IP-CIDR,34.224.0.0/12,Proxy
+
+
+
+
 #54 台湾香港澳门 常用网站
 DOMAIN-SUFFIX,appledaily.tw,Proxy
+
+
+
+
 #72 #112 Google Voice
 IP-CIDR,74.125.0.0/16,Proxy
+
+
+
 #85（可能冗余）
 DOMAIN-SUFFIX,www-google-analytics.l.google.com,Proxy
 DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,Proxy
@@ -40,8 +64,14 @@ DOMAIN-SUFFIX,pagead-tpc.l.google.com,Proxy
 DOMAIN-SUFFIX,mobileads.google.com,Proxy
 DOMAIN-SUFFIX,ads.google.com,Proxy
 DOMAIN-SUFFIX,afd.l.google.com,Proxy
+
+
+
 #175 华尔街邮报
 DOMAIN-SUFFIX,dowjones.com,Proxy
+
+
+
 #180 OneDrive（可能冗余）
 DOMAIN-SUFFIX,bcbits.com,Proxy
 DOMAIN-SUFFIX,ogma.iad.appboy.com,Proxy
@@ -53,8 +83,15 @@ DOMAIN-SUFFIX,mobile.pipe.aria.microsoft.com,Proxy
 DOMAIN-SUFFIX,gate.hockeyapp.net,Proxy
 DOMAIN-SUFFIX,api.onedrive.com,Proxy
 DOMAIN-SUFFIX,vortex.data.microsoft.com,Proxy
+
+
+
+
 #183
 DOMAIN-SUFFIX,mendeley.com,Proxy
+
+
+
 #205 APPLE NEWS
 DOMAIN-SUFFIX,news-events.apple.com,Proxy
 DOMAIN-SUFFIX,news-edge.apple.com,Proxy
@@ -70,10 +107,19 @@ DOMAIN-SUFFIX,gs-loc.apple.com,Proxy
 DOMAIN-SUFFIX,bag.itunes.apple.com,Proxy
 DOMAIN-SUFFIX,apple.news,Proxy
 DOMAIN-SUFFIX,news.iadsdk.apple.com,Proxy
+
+
+
 #github
 DOMAIN-SUFFIX,raw.githubusercontent.com,Proxy
+
+
+
 # news
 DOMAIN-SUFFIX,vox.com,Proxy
+
+
+
 #苹果域名及其CDN 代理
 DOMAIN-SUFFIX,adcdownload.apple.com.akadns.net,Proxy
 DOMAIN-SUFFIX,appldnld.g.aaplimg.com,Proxy
@@ -111,6 +157,8 @@ DOMAIN-SUFFIX,swdist.apple.com.akadns.net,Proxy
 DOMAIN-SUFFIX,swscan-cdn.apple.com.akadns.net,Proxy
 DOMAIN-SUFFIX,valid.origin-apple.com.akadns.net,Proxy
 DOMAIN-SUFFIX,phobos.apple.com,Proxy
+
+
 # DisneyPlus
 DOMAIN-SUFFIX,disney.asia,Proxy
 DOMAIN-SUFFIX,disney.be,Proxy
@@ -232,6 +280,10 @@ DOMAIN-SUFFIX,streamingdisney.net,Proxy
 DOMAIN-SUFFIX,thestationbymaker.com,Proxy
 DOMAIN-SUFFIX,thisispolaris.com,Proxy
 DOMAIN-SUFFIX,watchdisneyfe.com,Proxy
+
+
+
+
 # Amazon
 DOMAIN-SUFFIX,a2z.com,Proxy
 DOMAIN-SUFFIX,aboutamazon.co.uk,Proxy
@@ -380,10 +432,20 @@ DOMAIN-SUFFIX,wholefoodsmarket.com,Proxy
 DOMAIN-SUFFIX,wholekidsfoundation.org,Proxy
 DOMAIN-SUFFIX,wholeplanetfoundation.org,Proxy
 DOMAIN-SUFFIX,yamaxun.com,Proxy
+
+
+
 # Paramount
 DOMAIN-SUFFIX,paramountplus.com,Proxy
+
+
+
+
 # New Bing
 DOMAIN-SUFFIX,bing.com,Proxy
+
+
+
 # DNS Leak
 DOMAIN-SUFFIX,dnsleaktest.com,Proxy
 DOMAIN-SUFFIX,ipleak.net,Proxy
@@ -391,6 +453,9 @@ DOMAIN-SUFFIX,browserleaks.com,Proxy
 DOMAIN-SUFFIX,browserleaks.org,Proxy
 DOMAIN-SUFFIX,vpnunlimited.com,Proxy
 DOMAIN-SUFFIX,whrq.net,Proxy
+
+
+
 # Forefront
 DOMAIN-SUFFIX,forefront.ai,Proxy
 # Mozilla
