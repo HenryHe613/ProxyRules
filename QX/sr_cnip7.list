@@ -21,11 +21,11 @@ IP-CIDR,149.154.160.0/20,sr_cnip
 IP-CIDR,91.105.192.0/23,sr_cnip
 IP-CIDR,91.108.20.0/22,sr_cnip
 IP-CIDR,185.76.151.0/24,sr_cnip
-IP-CIDR,2001:b28:f23d::/48,sr_cnip
-IP-CIDR,2001:b28:f23f::/48,sr_cnip
-IP-CIDR,2001:67c:4e8::/48,sr_cnip
-IP-CIDR,2001:b28:f23c::/48,sr_cnip
-IP-CIDR,2a0a:f280::/32,sr_cnip
+IP-CIDR6,2001:b28:f23d::/48,sr_cnip
+IP-CIDR6,2001:b28:f23f::/48,sr_cnip
+IP-CIDR6,2001:67c:4e8::/48,sr_cnip
+IP-CIDR6,2001:b28:f23c::/48,sr_cnip
+IP-CIDR6,2a0a:f280::/32,sr_cnip
 #disqus
 DOMAIN-SUFFIX,disquscdn.com,sr_cnip
 #50 whatsapp
